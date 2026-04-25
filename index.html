@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tech 38 — Next-Gen Technology Insights for Tomorrow's Innovators</title>
-<meta name="description" content="Tech 38 delivers cutting-edge technology news, advanced platform reviews, and expert insights on AI, cloud computing, and emerging tech trends.">
-<meta name="keywords" content="advanced technology, tech platform, AI innovations, cloud computing, emerging tech, software development, tech trends">
-<meta property="og:title" content="Tech 38 — Next-Gen Technology Insights for Tomorrow's Innovators">
-<meta property="og:description" content="Tech 38 delivers cutting-edge technology news, advanced platform reviews, and expert insights on AI, cloud computing, and emerging tech trends.">
+<title>Tech 38 — Where Innovation Meets Intelligence</title>
+<meta name="description" content="Tech 38 delivers cutting-edge technology insights, advanced AI solutions, and next-gen innovation coverage for tech enthusiasts and professionals.">
+<meta name="keywords" content="advanced technology, AI innovation, tech news, emerging tech, digital transformation, future tech, tech platform">
+<meta property="og:title" content="Tech 38 — Where Innovation Meets Intelligence">
+<meta property="og:description" content="Tech 38 delivers cutting-edge technology insights, advanced AI solutions, and next-gen innovation coverage for tech enthusiasts and professionals.">
 <meta property="og:url" content="https://tech38.com">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://tech38.com/og-image.png">
@@ -223,6 +223,73 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
   .footer-top{grid-template-columns:1fr}
 }
 </style>
+
+  <!-- ═══ SEO: Open Graph ═══ -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tech38.com/">
+  <meta property="og:title" content="Tech 38 — Where Innovation Meets Intelligence">
+  <meta property="og:description" content="Tech 38 delivers cutting-edge technology insights, advanced AI solutions, and next-gen innovation coverage for tech enthusiasts and professionals.">
+  <meta property="og:image" content="https://tech38.com/og-image.jpg">
+  <meta property="og:site_name" content="Tech 38">
+  <meta property="og:locale" content="en_US">
+
+  <!-- ═══ SEO: Twitter Cards ═══ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@tech38">
+  <meta name="twitter:title" content="Tech 38 — Where Innovation Meets Intelligence">
+  <meta name="twitter:description" content="Tech 38 delivers cutting-edge technology insights, advanced AI solutions, and next-gen innovation coverage for tech enthusiasts and professionals.">
+  <meta name="twitter:image" content="https://tech38.com/og-image.jpg">
+
+  <!-- ═══ SEO: Additional Meta ═══ -->
+  <meta name="author" content="Tech 38 — Webworks Media Network">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <meta name="theme-color" content="#04070f">
+  <link rel="canonical" href="https://tech38.com/">
+
+  <!-- ═══ Security Headers ═══ -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+
+  <!-- ═══ Schema.org JSON-LD ═══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Tech 38",
+    "url": "https://tech38.com",
+    "description": "Tech 38 delivers cutting-edge technology insights, advanced AI solutions, and next-gen innovation coverage for tech enthusiasts and professionals.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Tech 38",
+      "url": "https://tech38.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://tech38.com/logo.png"
+      }
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://tech38.com/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- ═══ Google Analytics 4 ═══ -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX', {
+      page_title: 'Tech 38',
+      page_location: 'https://tech38.com/'
+    });
+  </script>
+
+  <!-- AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6620975821265271" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
@@ -243,30 +310,151 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
 </nav>
 
 <!-- HERO -->
+
+<!-- ══════════════════════════════════════════════ -->
+<!-- 50/50 BILLBOARD — YouTube + Sponsor CTA       -->
+<!-- ══════════════════════════════════════════════ -->
+<style>
+.billboard{display:grid;grid-template-columns:1fr 1fr;min-height:520px;position:relative;overflow:hidden;background:#020617;border-bottom:1px solid rgba(255,255,255,0.07)}
+.bb-left{position:relative;background:#000;overflow:hidden}
+.bb-left::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(0,245,196,0.08) 0%,transparent 70%);pointer-events:none;z-index:1;animation:bbGlow 4s ease-in-out infinite}
+@keyframes bbGlow{0%,100%{opacity:0.6}50%{opacity:1}}
+.yt-wrapper{position:relative;width:100%;height:100%;min-height:520px}
+.yt-wrapper iframe{position:absolute;inset:0;width:100%;height:100%;border:none;z-index:2}
+.yt-loading{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#020617;z-index:1;gap:1rem}
+.yt-spinner{width:40px;height:40px;border:3px solid rgba(255,255,255,0.07);border-top-color:#00f5c4;border-radius:50%;animation:spin 0.8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.yt-loading p{font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:#6b7a99;letter-spacing:2px}
+.live-badge{position:absolute;top:16px;left:16px;background:#ef4444;color:#fff;padding:0.25rem 0.75rem;border-radius:4px;font-family:'JetBrains Mono',monospace;font-size:0.65rem;font-weight:600;letter-spacing:2px;z-index:10;display:flex;align-items:center;gap:6px;box-shadow:0 0 20px rgba(239,68,68,0.5);animation:livePulse 2s ease-in-out infinite}
+@keyframes livePulse{0%,100%{box-shadow:0 0 20px rgba(239,68,68,0.5)}50%{box-shadow:0 0 40px rgba(239,68,68,0.8)}}
+.live-dot{width:7px;height:7px;background:#fff;border-radius:50%;animation:dotBlink 1s ease-in-out infinite}
+@keyframes dotBlink{0%,100%{opacity:1}50%{opacity:0.3}}
+.bb-divider{position:absolute;left:50%;top:0;bottom:0;width:1px;background:linear-gradient(to bottom,transparent,#00f5c4,#f5a623,transparent);opacity:0.3;z-index:5}
+.bb-right{position:relative;background:#020617;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:3rem 2.5rem;text-align:center;overflow:hidden}
+.bb-right::before{content:'';position:absolute;top:-100px;right:-100px;width:400px;height:400px;background:radial-gradient(circle,rgba(245,166,35,0.12) 0%,transparent 70%);pointer-events:none;animation:goldPulse 3s ease-in-out infinite}
+@keyframes goldPulse{0%,100%{transform:scale(1);opacity:0.8}50%{transform:scale(1.1);opacity:1}}
+.bb-right::after{content:'';position:absolute;bottom:-100px;left:-100px;width:300px;height:300px;background:radial-gradient(circle,rgba(0,245,196,0.08) 0%,transparent 70%);pointer-events:none}
+.megaphone-wrap{position:relative;margin-bottom:1.5rem}
+.megaphone-icon{font-size:4rem;display:block;animation:wobble 2s ease-in-out infinite;filter:drop-shadow(0 0 20px rgba(245,166,35,0.6))}
+@keyframes wobble{0%,100%{transform:rotate(-5deg) scale(1)}25%{transform:rotate(5deg) scale(1.05)}50%{transform:rotate(-3deg) scale(0.98)}75%{transform:rotate(4deg) scale(1.03)}}
+.megaphone-halo{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:80px;height:80px;background:radial-gradient(circle,rgba(245,166,35,0.3) 0%,transparent 70%);border-radius:50%;animation:haloExpand 2s ease-in-out infinite}
+@keyframes haloExpand{0%,100%{transform:translate(-50%,-50%) scale(1);opacity:0.8}50%{transform:translate(-50%,-50%) scale(1.5);opacity:0.4}}
+.sponsor-tag{font-family:'JetBrains Mono',monospace;font-size:0.65rem;letter-spacing:3px;color:#f5a623;text-transform:uppercase;margin-bottom:0.75rem;display:flex;align-items:center;gap:8px}
+.sponsor-tag::before,.sponsor-tag::after{content:'';height:1px;width:20px;background:#f5a623;opacity:0.5}
+.sponsor-headline{font-family:'Syne',sans-serif;font-size:clamp(1.4rem,3vw,2rem);font-weight:900;line-height:1.1;text-transform:uppercase;letter-spacing:-0.5px;margin-bottom:1rem;color:#e8ecf8}
+.sponsor-headline .hl{background:linear-gradient(90deg,#f5a623,#ffcc44);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.sponsor-stats{display:flex;gap:1.5rem;margin-bottom:1.5rem;flex-wrap:wrap;justify-content:center}
+.sp-stat .n{font-family:'Syne',sans-serif;font-size:1.4rem;font-weight:900;color:#00f5c4;display:block}
+.sp-stat .l{font-family:'JetBrains Mono',monospace;font-size:0.6rem;color:#6b7a99;letter-spacing:1px}
+.btn-secure{position:relative;background:linear-gradient(135deg,#f5a623,#e8920a);color:#000;padding:1rem 2rem;border-radius:8px;font-family:'Syne',sans-serif;font-size:1rem;font-weight:900;letter-spacing:0.5px;text-decoration:none;text-transform:uppercase;border:none;cursor:pointer;display:inline-block;box-shadow:0 0 30px rgba(245,166,35,0.5),0 0 60px rgba(245,166,35,0.25);animation:secureGlow 3s ease-in-out infinite;transition:transform 0.2s;width:100%;max-width:300px;margin-bottom:0.75rem;overflow:hidden;text-align:center}
+.btn-secure::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,0.3),transparent);transform:translateX(-100%);animation:secureShimmer 2s infinite}
+@keyframes secureShimmer{to{transform:translateX(100%)}}
+@keyframes secureGlow{0%,100%{box-shadow:0 0 30px rgba(245,166,35,0.5),0 0 60px rgba(245,166,35,0.25)}50%{box-shadow:0 0 50px rgba(245,166,35,0.8),0 0 100px rgba(245,166,35,0.4)}}
+.btn-secure:hover{transform:translateY(-2px) scale(1.01)}
+.bb-adsense{width:100%;max-width:300px;min-height:50px}
+.spots-left{font-family:'JetBrains Mono',monospace;font-size:0.65rem;color:#6b7a99;margin-top:0.5rem;display:flex;align-items:center;gap:6px}
+.spots-left::before{content:'';width:6px;height:6px;background:#ef4444;border-radius:50%;animation:dotBlink 1s infinite;flex-shrink:0}
+@media(max-width:768px){
+  .billboard{grid-template-columns:1fr}
+  .bb-left{min-height:220px}
+  .yt-wrapper{min-height:220px}
+  .bb-divider{display:none}
+  .bb-right{padding:2rem 1.5rem}
+}
+</style>
+
+<div class="billboard">
+  <!-- LEFT: YouTube Latest Video -->
+  <div class="bb-left">
+    <div class="live-badge"><div class="live-dot"></div>LATEST VIDEO</div>
+    <div class="yt-wrapper">
+      <div class="yt-loading" id="ytLoading">
+        <div class="yt-spinner"></div>
+        <p>LOADING LATEST VIDEO</p>
+      </div>
+      <div id="ytPlayer"></div>
+    </div>
+  </div>
+
+  <!-- DIVIDER -->
+  <div class="bb-divider"></div>
+
+  <!-- RIGHT: Sponsor CTA -->
+  <div class="bb-right">
+    <div class="megaphone-wrap">
+      <div class="megaphone-halo"></div>
+      <span class="megaphone-icon">📢</span>
+    </div>
+    <div class="sponsor-tag">Premium Advertising</div>
+    <h2 class="sponsor-headline">Your Brand.<br><span class="hl">Their Attention.</span><br>Right Now.</h2>
+    <div class="sponsor-stats">
+      <div class="sp-stat"><span class="n">38K+</span><span class="l">Subscribers</span></div>
+      <div class="sp-stat"><span class="n">94%</span><span class="l">Target Match</span></div>
+      <div class="sp-stat"><span class="n">$12</span><span class="l">CPM Rate</span></div>
+    </div>
+    <a href="acquisition.html" class="btn-secure">🔥 Secure This Spot Now</a>
+    <div class="bb-adsense">
+      <ins class="adsbygoogle" style="display:block;width:100%;min-height:50px" data-ad-client="ca-pub-6620975821265271" data-ad-slot="YOUR_AD_SLOT" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    </div>
+    <div class="spots-left">Only 2 sponsor slots remaining this month</div>
+  </div>
+</div>
+
+<script>
+// YouTube Latest Video Loader
+(function(){
+  var apiKey = 'AIzaSyBVoWllpCQ7Bh-GZuHblnipZYZLiJA7duQ';
+  var channelId = 'UCeJ-0a2SZGZDUXpIX-lCfRg';
+  function loadYT(){
+    fetch('https://www.googleapis.com/youtube/v3/search?part=snippet&channelId='+channelId+'&type=video&order=date&maxResults=1&key='+apiKey)
+    .then(function(r){return r.json()})
+    .then(function(data){
+      var loading = document.getElementById('ytLoading');
+      var player = document.getElementById('ytPlayer');
+      if(loading) loading.style.display='none';
+      if(data.items && data.items.length > 0){
+        var vid = data.items[0].id.videoId;
+        if(player) player.innerHTML='<iframe src="https://www.youtube.com/embed/'+vid+'?autoplay=1&mute=1&rel=0&loop=1&playlist='+vid+'&modestbranding=1" allow="autoplay;encrypted-media;picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:none;z-index:2"></iframe>';
+      }
+    })
+    .catch(function(){
+      var loading = document.getElementById('ytLoading');
+      var player = document.getElementById('ytPlayer');
+      if(loading) loading.style.display='none';
+      if(player) player.innerHTML='<iframe src="https://www.youtube.com/embed?listType=user_uploads&list='+channelId+'&autoplay=1&mute=1" allow="autoplay;encrypted-media" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:none;z-index:2"></iframe>';
+    });
+  }
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',loadYT);
+  } else { loadYT(); }
+  try{(adsbygoogle=window.adsbygoogle||[]).push({})}catch(e){}
+})();
+</script>
+
 <div class="hero">
-  <div class="hero-eyebrow">🚀 ADVANCED TECHNOLOGY PLATFORM</div>
+  <div class="hero-eyebrow">🔬 ADVANCED TECHNOLOGY</div>
   <h1>
-    Future Tech Starts
-    <span class="accent">Here at 38</span>
-    <span class="dim">Innovation Never Stops</span>
+    Next-Gen Tech
+    <span class="accent">Innovation Hub</span>
+    <span class="dim">Future Forward</span>
   </h1>
-  <p class="hero-sub">Your gateway to advanced technology insights, breakthrough innovations, and expert analysis. Stay ahead with cutting-edge tech coverage trusted by industry leaders.</p>
+  <p class="hero-sub">Your gateway to advanced technology insights and breakthrough innovations. Stay ahead with in-depth analysis of AI, quantum computing, and emerging tech trends.</p>
   <div class="hero-cta">
-    <a href="#newsletter" class="btn-primary">Explore Tech News</a>
-    <a href="#insights" class="btn-ghost">Join Tech Community</a>
+    <a href="#newsletter" class="btn-primary">Explore Tech</a>
+    <a href="#insights" class="btn-ghost">Join Community</a>
   </div>
   <div class="stats-bar">
     <div class="stat-item"><span class="stat-num">38K+</span><span class="stat-label">Tech Enthusiasts</span></div>
-    <div class="stat-item"><span class="stat-num">850+</span><span class="stat-label">Expert Reviews</span></div>
-    <div class="stat-item"><span class="stat-num">99.8%</span><span class="stat-label">Accuracy Rate</span></div>
+    <div class="stat-item"><span class="stat-num">850+</span><span class="stat-label">Tech Reviews</span></div>
     <div class="stat-item"><span class="stat-num">24/7</span><span class="stat-label">Live Updates</span></div>
+    <div class="stat-item"><span class="stat-num">99.9%</span><span class="stat-label">Accuracy Rate</span></div>
   </div>
 </div>
 
 <!-- TICKER -->
 <div class="ticker-wrap">
   <div class="ticker">
-    <span>AI Models Achieve 95% Human-Level Reasoning in Latest Benchmarks</span> · <span>Quantum Computing Startup Secures $500M Series D Funding</span> · <span>New ARM Architecture Promises 40% Better Power Efficiency</span> · <span>Cloud Giants Report Record Enterprise Adoption Rates</span> · <span>Breakthrough in Neural Interface Technology Announced</span> · <span>Global Tech Spending Projected to Hit $5T by 2025</span> · <span>AI Models Achieve 95% Human-Level Reasoning in Latest Benchmarks</span> · <span>Quantum Computing Startup Secures $500M Series D Funding</span> · <span>New ARM Architecture Promises 40% Better Power Efficiency</span> · <span>Cloud Giants Report Record Enterprise Adoption Rates</span> · <span>Breakthrough in Neural Interface Technology Announced</span> · <span>Global Tech Spending Projected to Hit $5T by 2025</span>
+    <span>🚀 Quantum computing breakthrough achieves 1000-qubit milestone</span> · <span>🤖 GPT-5 rumors intensify as OpenAI hints at major release</span> · <span>💡 Apple Vision Pro 2 enters production phase</span> · <span>⚡ Solid-state batteries hit mass production milestone</span> · <span>🧬 CRISPR 3.0 technology approved for clinical trials</span> · <span>🌐 SpaceX Starlink reaches 5 million global subscribers</span> · <span>🚀 Quantum computing breakthrough achieves 1000-qubit milestone</span> · <span>🤖 GPT-5 rumors intensify as OpenAI hints at major release</span> · <span>💡 Apple Vision Pro 2 enters production phase</span> · <span>⚡ Solid-state batteries hit mass production milestone</span> · <span>🧬 CRISPR 3.0 technology approved for clinical trials</span> · <span>🌐 SpaceX Starlink reaches 5 million global subscribers</span>
   </div>
 </div>
 
@@ -276,10 +464,10 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
     <div class="billboard-inner">
       <div>
         <div class="billboard-badge">PARTNER</div>
-        <h3>Scale Your Infrastructure with AWS</h3>
-        <p>Trusted by 1M+ companies worldwide. Start free today.</p>
+        <h3>Build Smarter with AI Tools</h3>
+        <p>Access enterprise-grade AI development platforms</p>
       </div>
-      <a href="https://aws.amazon.com" class="billboard-cta" target="_blank" rel="noopener">Start Free Trial →</a>
+      <a href="https://github.com/features/copilot" class="billboard-cta" target="_blank" rel="noopener">Try Free →</a>
     </div>
   </div>
 </div>
@@ -297,36 +485,36 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
 </div>
 <!-- CONTENT / INSIGHTS -->
 <section class="section" id="insights">
-  <div class="section-label">LATEST INSIGHTS</div>
-  <h2 class="section-title">Advanced Tech Coverage</h2>
-  <p class="section-sub">Deep dives into emerging technologies shaping our digital future</p>
+  <div class="section-label">TECH INSIGHTS</div>
+  <h2 class="section-title">Cutting-Edge Coverage</h2>
+  <p class="section-sub">Deep dives into tomorrow's technology today</p>
   <div class="content-grid">
     <a href="#" class="content-card">
-      <div class="card-thumb" style="background:#0a1628">🤖</div>
+      <div class="card-thumb" style="background:#0a1628">🧠</div>
       <div class="card-body">
         <div class="card-tag">ARTIFICIAL INTELLIGENCE</div>
-        <h3>7 AI Breakthroughs That Will Define 2025</h3>
-        <p>From multimodal reasoning to autonomous agents, these innovations are reshaping how we interact with intelligent systems.</p>
+        <h3>Neural Networks Revolutionize Drug Discovery</h3>
+        <p>How advanced AI models are accelerating pharmaceutical research and cutting development time by 60%.</p>
       </div>
       <div class="card-footer"><span>8 min read</span><span>12.4K views</span></div>
     </a>
     <a href="#" class="content-card">
-      <div class="card-thumb" style="background:#0d1020">☁️</div>
+      <div class="card-thumb" style="background:#0d1020">⚛️</div>
       <div class="card-body">
-        <div class="card-tag">CLOUD COMPUTING</div>
-        <h3>Multi-Cloud Strategy: The Complete Enterprise Guide</h3>
-        <p>Learn how leading organizations optimize costs and performance across AWS, Azure, and Google Cloud platforms.</p>
+        <div class="card-tag">QUANTUM COMPUTING</div>
+        <h3>Quantum Supremacy: What It Means for Encryption</h3>
+        <p>Breaking down the implications of quantum advances on cybersecurity and blockchain technology.</p>
       </div>
-      <div class="card-footer"><span>11 min read</span><span>8.7K views</span></div>
+      <div class="card-footer"><span>6 min read</span><span>9.8K views</span></div>
     </a>
     <a href="#" class="content-card">
-      <div class="card-thumb" style="background:#0a1a12">🔐</div>
+      <div class="card-thumb" style="background:#0a1a12">🔋</div>
       <div class="card-body">
-        <div class="card-tag">CYBERSECURITY</div>
-        <h3>Zero Trust Architecture Implementation Roadmap</h3>
-        <p>Step-by-step guide to securing your infrastructure with modern zero trust principles and frameworks.</p>
+        <div class="card-tag">GREEN TECH</div>
+        <h3>Next-Gen Batteries Promise 10-Minute EV Charging</h3>
+        <p>Breakthrough solid-state technology could transform electric vehicle adoption worldwide.</p>
       </div>
-      <div class="card-footer"><span>9 min read</span><span>6.2K views</span></div>
+      <div class="card-footer"><span>5 min read</span><span>15.2K views</span></div>
     </a>
   </div>
 </section>
@@ -334,26 +522,26 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
 <!-- YOUTUBE / VIDEO -->
 <section class="section" id="videos">
   <div class="youtube-section">
-    <div class="section-label">TECH TUTORIALS</div>
-    <h2 class="section-title">Expert Tech Walkthroughs</h2>
+    <div class="section-label">TECH VIDEOS</div>
+    <h2 class="section-title">Visual Tech Breakdowns</h2>
     <div class="yt-grid">
       <div class="yt-embed">
-        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0" allowfullscreen loading="lazy"></iframe>
+        <iframe src="https://www.youtube.com/embed/GYkq9Rgoj8E?autoplay=1&mute=1&rel=0&loop=1&playlist=GYkq9Rgoj8E" allowfullscreen allow="autoplay; encrypted-media" loading="lazy"></iframe>
       </div>
       <div class="yt-playlist">
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="yt-item" target="_blank" rel="noopener">
+        <a href="https://www.youtube.com/watch?v=jNQXAC9IVRw" class="yt-item" target="_blank" rel="noopener">
           <div class="yt-thumb">▶</div>
-          <div class="yt-info"><h4>Building Scalable APIs in 2024</h4><span>18:42 · 45K views</span></div>
+          <div class="yt-info"><h4>AI Revolution 2025: Complete Overview</h4><span>18:42 · 285K views</span></div>
         </a>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="yt-item" target="_blank" rel="noopener">
+        <a href="https://www.youtube.com/watch?v=aircAruvnKk" class="yt-item" target="_blank" rel="noopener">
           <div class="yt-thumb">▶</div>
-          <div class="yt-info"><h4>Kubernetes Deep Dive for DevOps</h4><span>24:15 · 38K views</span></div>
+          <div class="yt-info"><h4>Quantum Computing Explained Simply</h4><span>12:35 · 156K views</span></div>
         </a>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="yt-item" target="_blank" rel="noopener">
+        <a href="https://www.youtube.com/watch?v=R9OHn5ZF4Uo" class="yt-item" target="_blank" rel="noopener">
           <div class="yt-thumb">▶</div>
-          <div class="yt-info"><h4>Machine Learning Pipeline Setup</h4><span>32:08 · 52K views</span></div>
+          <div class="yt-info"><h4>Future of Robotics & Automation</h4><span>22:18 · 203K views</span></div>
         </a>
-        <a href="https://www.youtube.com/channel/UCxxxxxx" class="btn-primary" target="_blank" rel="noopener" style="margin-top:0.5rem;text-align:center">Subscribe to Channel →</a>
+        <a href="https://www.youtube.com/channel/UCeJ-0a2SZGZDUXpIX-lCfRg" class="btn-primary" target="_blank" rel="noopener" style="margin-top:0.5rem;text-align:center">Subscribe to Channel →</a>
       </div>
     </div>
   </div>
@@ -364,25 +552,25 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
   <div class="lead-section">
     <div class="lead-badge">FREE — FREE TECH INSIDER REPORT</div>
     <h2>Get Tomorrow's Tech Today</h2>
-    <p>Join 38,000+ tech professionals receiving weekly insights on emerging technologies and industry trends.</p>
+    <p>Join 38,000+ innovators receiving weekly advanced tech analysis and exclusive insights.</p>
     <div class="lead-form">
       <input type="text" class="lead-input" id="leadName" placeholder="Your name" style="min-width:160px;flex:0.7">
       <input type="email" class="lead-input" id="leadEmail" placeholder="your@email.com">
-      <button class="btn-primary" onclick="handleLead()">Subscribe Free</button>
+      <button class="btn-primary" onclick="handleLead()">Subscribe Now</button>
     </div>
-    <div class="form-success" id="leadSuccess">✓ Welcome to Tech 38! Check your inbox for your first insider report.</div>
+    <div class="form-success" id="leadSuccess">✓ Welcome to the future! Check your inbox for your Tech Insider Report.</div>
     <div class="lead-magnet">
       <div class="magnet-item">
         <div class="magnet-icon">📊</div>
-        <div><h4>2024 Tech Trends Report</h4><p>Comprehensive analysis of 50+ emerging technologies</p></div>
+        <div><h4>2025 Tech Trends Report</h4><p>Comprehensive analysis of 38 emerging technologies</p></div>
       </div>
       <div class="magnet-item">
         <div class="magnet-icon">🛠️</div>
-        <div><h4>DevOps Toolkit Guide</h4><p>Essential tools and workflows for modern development</p></div>
+        <div><h4>AI Tools Database</h4><p>Curated list of 200+ cutting-edge AI platforms</p></div>
       </div>
       <div class="magnet-item">
-        <div class="magnet-icon">🎯</div>
-        <div><h4>Cloud Migration Checklist</h4><p>Step-by-step roadmap for seamless cloud adoption</p></div>
+        <div class="magnet-icon">📈</div>
+        <div><h4>Investment Tech Guide</h4><p>Identify high-potential tech opportunities early</p></div>
       </div>
     </div>
     <p style="font-size:0.72rem;color:var(--muted);margin-top:1.5rem;font-family:var(--mono)">No spam. Unsubscribe anytime. Your data is never sold.</p>
@@ -392,32 +580,32 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
 <!-- AFFILIATE TOOLS -->
 <section class="section" id="tools">
   <div class="section-label">RECOMMENDED TOOLS</div>
-  <h2 class="section-title">Tech Stack Essentials</h2>
-  <p class="section-sub">Curated tools trusted by leading tech teams worldwide</p>
+  <h2 class="section-title">Advanced Tech Stack</h2>
+  <p class="section-sub">Industry-leading tools for tech professionals</p>
   <div class="tools-grid">
+    <a href="https://openai.com" target="_blank" rel="noopener" class="tool-card">
+      <div class="tool-icon">🤖</div>
+      <div class="tool-info"><h4>OpenAI API</h4><p>Access GPT-4 and advanced AI models for development</p><div class="tool-commission">Up to $500 credit</div></div>
+    </a>
     <a href="https://aws.amazon.com" target="_blank" rel="noopener" class="tool-card">
       <div class="tool-icon">☁️</div>
-      <div class="tool-info"><h4>AWS</h4><p>Industry-leading cloud infrastructure for any scale.</p><div class="tool-commission">Free Tier Available</div></div>
+      <div class="tool-info"><h4>AWS</h4><p>Enterprise cloud infrastructure for scalable solutions</p><div class="tool-commission">$300 free tier</div></div>
     </a>
-    <a href="https://github.com" target="_blank" rel="noopener" class="tool-card">
-      <div class="tool-icon">🔧</div>
-      <div class="tool-info"><h4>GitHub</h4><p>World's largest code hosting and collaboration platform.</p><div class="tool-commission">Free for Teams</div></div>
-    </a>
-    <a href="https://datadoghq.com" target="_blank" rel="noopener" class="tool-card">
+    <a href="https://tableau.com" target="_blank" rel="noopener" class="tool-card">
       <div class="tool-icon">📊</div>
-      <div class="tool-info"><h4>Datadog</h4><p>Unified monitoring and security for cloud applications.</p><div class="tool-commission">14-Day Free Trial</div></div>
-    </a>
-    <a href="https://vercel.com" target="_blank" rel="noopener" class="tool-card">
-      <div class="tool-icon">🚀</div>
-      <div class="tool-info"><h4>Vercel</h4><p>Deploy web applications with zero configuration.</p><div class="tool-commission">Generous Free Tier</div></div>
+      <div class="tool-info"><h4>Tableau</h4><p>Powerful data visualization and analytics platform</p><div class="tool-commission">14-day free trial</div></div>
     </a>
     <a href="https://1password.com" target="_blank" rel="noopener" class="tool-card">
       <div class="tool-icon">🔐</div>
-      <div class="tool-info"><h4>1Password</h4><p>Enterprise password management and security solution.</p><div class="tool-commission">30-Day Trial</div></div>
+      <div class="tool-info"><h4>1Password</h4><p>Enterprise security and password management</p><div class="tool-commission">25% commission</div></div>
     </a>
-    <a href="https://slack.com" target="_blank" rel="noopener" class="tool-card">
-      <div class="tool-icon">💬</div>
-      <div class="tool-info"><h4>Slack</h4><p>Team communication hub for modern workplaces.</p><div class="tool-commission">Free Plan Available</div></div>
+    <a href="https://github.com/features/copilot" target="_blank" rel="noopener" class="tool-card">
+      <div class="tool-icon">💻</div>
+      <div class="tool-info"><h4>GitHub Copilot</h4><p>AI-powered code completion and development assistant</p><div class="tool-commission">Free for students</div></div>
+    </a>
+    <a href="https://notion.so" target="_blank" rel="noopener" class="tool-card">
+      <div class="tool-icon">🔧</div>
+      <div class="tool-info"><h4>Notion</h4><p>All-in-one workspace for tech documentation</p><div class="tool-commission">$10 credit/signup</div></div>
     </a>
   </div>
 </section>
@@ -443,7 +631,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
   <div class="sponsor-section">
     <div class="section-label">ADVERTISE</div>
     <h2 class="section-title">Reach 38,000+ Tech Professionals</h2>
-    <p class="section-sub">Reach decision-makers at top tech companies actively seeking innovative solutions</p>
+    <p class="section-sub">Reach engaged technology decision-makers and early adopters</p>
     <div class="sponsor-grid">
       <div class="sponsor-card">
         <div class="sponsor-tier">Starter</div>
@@ -508,8 +696,8 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
       <div class="domain-info">
         <div class="section-label">PREMIUM DOMAIN</div>
         <h2>Own tech38.com</h2>
-        <p>Tech38.com is a premium, memorable domain combining universal tech appeal with a distinctive numeric brand. Perfect for technology platforms, media outlets, or SaaS companies.</p>
-        <div class="domain-price">$25,000</div>
+        <p>Tech38.com combines authority with memorability. The number 38 suggests precision and technical depth, perfect for an advanced technology platform targeting professionals.</p>
+        <div class="domain-price">$28,000</div>
         <div class="domain-price-sub">or lease from $450/month · Financing available</div>
         <div class="domain-actions">
           <a href="mailto:domains@tech38.com" class="btn-primary">Make an Offer</a>
@@ -545,12 +733,39 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
   <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 </div>
 <!-- FOOTER -->
+<!-- ═══ PHASE 6: LEGAL FOOTER ═══ -->
 <footer>
+  <div class="footer-legal-bar">
+    <div class="footer-legal-inner">
+
+      <!-- Network Links -->
+      <div class="footer-network">
+        <span class="footer-network-label">Webworks Media Network</span>
+        <div class="footer-network-links">
+          <a href="https://b2b.marketing" target="_blank">B2B.Marketing</a>
+          <a href="https://agentic.press" target="_blank">Agentic.Press</a>
+          <a href="https://genai.work" target="_blank">GenAI.Work</a>
+          <a href="https://quantum.trading" target="_blank">Quantum.Trading</a>
+        </div>
+      </div>
+
+      <!-- Legal Links -->
+      <div class="footer-legal-links">
+        <a href="acquisition.html">Acquisition</a>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#terms">Terms of Use</a>
+        <a href="#dmca">DMCA</a>
+        <a href="mailto:legal@tech38.com">Legal</a>
+      </div>
+
+    </div>
+  </div>
+
   <div class="footer-inner">
     <div class="footer-top">
       <div class="footer-brand">
         <a href="#" class="logo">tech38.com</a>
-        <p>Advancing technology knowledge for innovators, developers, and industry leaders worldwide.</p>
+        <p>Tech 38 — Advancing human potential through technology intelligence.</p>
       </div>
       <div class="footer-col">
         <h4>CONTENT</h4>
@@ -589,6 +804,47 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
       </div>
     </div>
   </div>
+
+  <!-- Legal Statements -->
+  <div class="footer-legal-statements">
+    <p class="footer-copyright">
+      © 2026 Tech 38 (tech38.com) · All rights reserved · ™ Trademark of Webworks Media Network
+    </p>
+    <p class="footer-disclaimer">
+      <strong>Affiliate Disclosure:</strong> This site contains affiliate links. We may earn a commission when you purchase through our links, at no extra cost to you. All recommendations are based on genuine assessment.
+    </p>
+    <p class="footer-disclaimer">
+      <strong>User Content Disclaimer:</strong> User-submitted content on Tech 38 does not necessarily reflect the views of tech38.com or Webworks Media Network. We reserve the right to remove content that violates our community standards.
+    </p>
+    <p class="footer-disclaimer">
+      <strong>Privacy Statement:</strong> We collect only the information you provide voluntarily (email, name). We never sell, share, or rent your personal information to third parties. Your data is stored securely and used only to deliver the content you requested. You may unsubscribe at any time.
+    </p>
+    <p class="footer-disclaimer">
+      <strong>Copyright & DMCA:</strong> All original content on tech38.com is protected by copyright. To report copyright infringement, contact <a href="mailto:dmca@tech38.com">dmca@tech38.com</a>. We respond to all valid DMCA notices within 48 hours.
+    </p>
+    <p class="footer-disclaimer">
+      <strong>General Disclaimer:</strong> Content on Tech 38 is for informational purposes only and does not constitute financial, legal, or professional advice. Always consult a qualified professional before making any decisions based on information found on this site.
+    </p>
+  </div>
+
+<style>
+.footer-legal-bar{background:#020408;border-top:1px solid rgba(255,255,255,0.07);padding:2rem}
+.footer-legal-inner{max-width:1140px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem}
+.footer-network-label{font-family:'JetBrains Mono',monospace;font-size:0.6rem;letter-spacing:2px;color:#6b7a99;text-transform:uppercase;display:block;margin-bottom:0.5rem}
+.footer-network-links{display:flex;gap:1rem;flex-wrap:wrap}
+.footer-network-links a{font-size:0.78rem;color:#6b7a99;text-decoration:none;transition:color 0.2s}
+.footer-network-links a:hover{color:#00f5c4}
+.footer-legal-links{display:flex;gap:1.5rem;flex-wrap:wrap}
+.footer-legal-links a{font-size:0.75rem;color:#6b7a99;text-decoration:none;transition:color 0.2s}
+.footer-legal-links a:hover{color:#e8ecf8}
+.footer-legal-statements{background:#010306;padding:2rem;text-align:center;border-top:1px solid rgba(255,255,255,0.04)}
+.footer-copyright{font-family:'JetBrains Mono',monospace;font-size:0.72rem;color:#4a5568;margin-bottom:1rem}
+.footer-disclaimer{font-size:0.72rem;color:#3a4555;line-height:1.6;margin-bottom:0.75rem;max-width:900px;margin-left:auto;margin-right:auto}
+.footer-disclaimer strong{color:#4a5568}
+.footer-disclaimer a{color:#6b7a99;text-decoration:none}
+.footer-disclaimer a:hover{color:#00f5c4}
+@media(max-width:768px){.footer-legal-inner{flex-direction:column;align-items:flex-start}}
+</style>
 </footer>
 
 <script>
@@ -636,5 +892,48 @@ document.addEventListener('keypress', e => {
   // Show sticky ad only on wide screens
   if(window.innerWidth > 1400) document.getElementById('stickyAd').style.display = 'block';
 </script>
+
+<!-- ═══ PHASE 8: FLOATING FEEDBACK BUTTON ═══ -->
+<div class="feedback-float" id="feedbackFloat">
+  <button class="feedback-btn" onclick="document.getElementById('feedbackModal').style.display='flex'" title="Send Feedback">
+    💬
+  </button>
+  <span class="feedback-label">Feedback</span>
+</div>
+
+<div class="feedback-modal" id="feedbackModal" style="display:none" onclick="if(event.target===this)this.style.display='none'">
+  <div class="feedback-modal-inner">
+    <button class="feedback-close" onclick="document.getElementById('feedbackModal').style.display='none'">✕</button>
+    <h3>Send Feedback</h3>
+    <p>Help us improve Tech 38. All feedback goes directly to our team.</p>
+    <form action="https://formspree.io/f/xvzdyoqr" method="POST" onsubmit="document.getElementById('feedbackModal').style.display='none'">
+      <input type="hidden" name="_subject" value="Feedback: tech38.com">
+      <input type="hidden" name="type" value="Site Feedback">
+      <select name="feedback_type" style="width:100%;padding:0.6rem;margin-bottom:0.75rem;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:6px;color:#e8ecf8;font-size:0.85rem">
+        <option value="bug">🐛 Report a Bug</option>
+        <option value="suggestion">💡 Suggest Enhancement</option>
+        <option value="content">📝 Content Issue</option>
+        <option value="other">💬 General Feedback</option>
+      </select>
+      <textarea name="message" placeholder="Your feedback..." required style="width:100%;padding:0.75rem;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:6px;color:#e8ecf8;font-size:0.85rem;min-height:100px;resize:vertical;font-family:inherit"></textarea>
+      <input type="email" name="email" placeholder="Your email (optional)" style="width:100%;padding:0.6rem;margin-top:0.5rem;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:6px;color:#e8ecf8;font-size:0.85rem">
+      <button type="submit" style="width:100%;margin-top:0.75rem;padding:0.75rem;background:linear-gradient(135deg,#00f5c4,#00c9a0);color:#000;border:none;border-radius:8px;font-weight:800;font-family:'Syne',sans-serif;cursor:pointer;font-size:0.9rem">Send Feedback</button>
+    </form>
+  </div>
+</div>
+
+<style>
+.feedback-float{position:fixed;bottom:2rem;right:2rem;z-index:500;display:flex;flex-direction:column;align-items:center;gap:4px}
+.feedback-btn{width:48px;height:48px;background:linear-gradient(135deg,#1a2a4a,#2a3a5a);border:1px solid rgba(0,245,196,0.3);border-radius:50%;font-size:1.2rem;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(0,0,0,0.4);transition:transform 0.2s,box-shadow 0.2s}
+.feedback-btn:hover{transform:scale(1.1);box-shadow:0 4px 30px rgba(0,245,196,0.3)}
+.feedback-label{font-family:'JetBrains Mono',monospace;font-size:0.55rem;color:#6b7a99;letter-spacing:1px;text-transform:uppercase}
+.feedback-modal{position:fixed;inset:0;background:rgba(0,0,0,0.8);z-index:1000;display:flex;align-items:center;justify-content:center;padding:1rem}
+.feedback-modal-inner{background:#0c1428;border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:2rem;width:100%;max-width:420px;position:relative}
+.feedback-close{position:absolute;top:1rem;right:1rem;background:none;border:none;color:#6b7a99;font-size:1.1rem;cursor:pointer;width:30px;height:30px;display:flex;align-items:center;justify-content:center;border-radius:50%;transition:background 0.2s}
+.feedback-close:hover{background:rgba(255,255,255,0.1)}
+.feedback-modal-inner h3{font-family:'Syne',sans-serif;font-size:1.2rem;font-weight:800;color:#e8ecf8;margin-bottom:0.5rem}
+.feedback-modal-inner p{font-size:0.82rem;color:#6b7a99;margin-bottom:1rem}
+</style>
+
 </body>
 </html>
